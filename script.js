@@ -4,7 +4,7 @@ const userImage = document.querySelector('.user-image')
 const username = document.querySelector('.username')
 const role = document.querySelector('.role')
 
-const testimonals = [
+const testimonials = [
     {
         name: 'John Myles',
         position: 'Marketing',
@@ -34,7 +34,7 @@ const testimonals = [
 let idx = 1
 
 function updateTestimonial() { 
-    const { name, position, photo, text } = testimonals[idx]
+    const { name, position, photo, text } = testimonials[idx]
 
     testimonial.innerHTML = text
     userImage.src = photo
